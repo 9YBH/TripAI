@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS + editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit secrets (if any)
+.streamlit/secrets.toml
